@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: dev
+    schema: public
+    tables:
+      - name: category
+      - name: date
+      - name: event
